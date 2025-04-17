@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    background-color: rgb(78, 67, 51);
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.grid-cell {
+    background-color: rgb(84, 141, 122);
+    align-content: center;
+    text-align: center;
+    font-size: 84px;
+    color: white;
+    font-weight: 900;
+    border-radius: 15px;
+
+    border: none;
+}
+
